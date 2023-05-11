@@ -18,7 +18,7 @@ log = logging.getLogger("djpaddle")
 paddle_client = PaddleClient(
     vendor_id=settings.DJPADDLE_VENDOR_ID,
     api_key=settings.DJPADDLE_API_KEY,
-    sandbox=True,
+    sandbox=False,
 )
 
 
